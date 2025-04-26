@@ -1,10 +1,13 @@
 {
   "name": "shivam_portfolio",
+  "homepage": "https://shivambhaipatel.github.io/shivam_portfolio/",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
@@ -15,6 +18,7 @@
     "@react-three/drei": "^9.99.4",
     "@react-three/fiber": "^8.15.16",
     "framer-motion": "^9.0.7",
+    "gh-pages": "^6.3.0",
     "maath": "^0.10.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
