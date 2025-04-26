@@ -6,7 +6,7 @@ and Three.js. It is a fully responsive website that works well on all devices.
 <details><summary><b>Folder Structure</b></summary>
 
 ```bash
-reactjs18-3d-portfolio/
+portfolio/
 ├── src/
 ├   ├── App.tsx
 ├   ├── globals.css
